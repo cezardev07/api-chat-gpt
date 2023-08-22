@@ -46,7 +46,7 @@ export const Header = () => {
         <header className="fixed w-full top-0 left-0 p-4 z-50 bg-white"> 
             <nav ref={navBar} className="relative mx-auto flex items-center justify-between gap-5 max-w-[1400px] ">
                 <Link 
-                    to="/" 
+                    to="/api-chat-gpt" 
                     className="decoration-none"
                 >
                     {/* caso queira colocar logo marca */}
@@ -57,7 +57,7 @@ export const Header = () => {
                 </Link>
                 <ul className={menuMobile === true ? "absolute top-12 right-0 flex flex-col items-center justify-center gap-3 bg-white" : "flex items-center justify-center gap-3 responsive_menu_mobile"}>
                     <Link 
-                        to="/sobre"
+                        to="/api-chat-gpt/sobre"
                         className="active:scale-90 flex items-center justify-center text-[#111111] bg-transparent rounded-sm w-[101px] px-5 py-2 whitespace-nowrap decoration-none shadow_hover_orage gap-1"
                     >
                         <span className="text-lg">
@@ -66,7 +66,7 @@ export const Header = () => {
                         sobre
                     </Link>
                     <Link 
-                        to="/chat" 
+                        to="/api-chat-gpt/chat" 
                         className="active:scale-90 flex items-center justify-center text-white bg-[#111111] rounded-sm w-[101px] px-5 py-2 whitespace-nowrap decoration-none shadow_hover_orage gap-1"
                     >
                         <span className="text-lg">

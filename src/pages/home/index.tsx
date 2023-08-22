@@ -30,14 +30,14 @@ export const Home = () => {
                 </div>
                 <div className="wrapper_buttons flex items-center justify-center flex-wrap gap-[20px]">
                     <Link 
-                        to="/"
+                        to="/api-chat-gpt/"
                         className="active:scale-90 hover:bg-[#111111b7] w-[188px] h-48px bg-[#111111] text-[#ffffff] rounded-[3px] flex items-center justify-center gap-[10px] whitespace-nowrap border-[1px] border-[#111111] shadow_hover_orage pt-[10px] pb-[10px]">
                         <span className="text-[20px]">
                             <MdOutlineSchool/>
                         </span>
                         Rede Develop
                     </Link>
-                    <Link to="/chat" className="active:scale-90 active w-[188px] h-48px rounded-[3px] flex items-center justify-center gap-[10px] whitespace-nowrap border-[1px] border-[#111111] shadow_hover_orage pt-[10px] pb-[10px]">
+                    <Link to="/api-chat-gpt/chat" className="active:scale-90 active w-[188px] h-48px rounded-[3px] flex items-center justify-center gap-[10px] whitespace-nowrap border-[1px] border-[#111111] shadow_hover_orage pt-[10px] pb-[10px]">
                         <span className="text-[20px]">
                             <BsRobot/>
                         </span>

@@ -7,8 +7,8 @@ export const RoutesPage = () => {
     return(
         <>
             <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/chat" element={<Chat/>}/>
+                <Route path="/api-chat-gpt/" element={<Home/>}/>
+                <Route path="/api-chat-gpt/chat" element={<Chat/>}/>
                 <Route path="*" element={<PageDefault/>}/>
             </Routes>
         </>

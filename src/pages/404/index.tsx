@@ -10,7 +10,7 @@ export const PageDefault = () => {
                 404
             </h1>
             <Link 
-                to="/" 
+                to="/api-chat-gpt/" 
                 className="hover:text-blue-800"
             >
                 Pagina não encontrada, clique aqui para voltar para a pagina inicial
